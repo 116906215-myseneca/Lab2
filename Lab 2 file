@@ -14,3 +14,9 @@ def print_arguments():
     print("Arguments only:", args)
     
     print("Script and arguments:", ' '.join(sys.argv))
+
+def helloWorld():
+	print('Hello World')
+
+
+helloWorld()
